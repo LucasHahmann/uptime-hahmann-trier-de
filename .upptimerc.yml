@@ -3,25 +3,22 @@ owner: lucashahmann # Your GitHub organization or username, where this repositor
 repo: upptime-hahmann-trier-de # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-
+  - name: Nextcloud
+    url: https://nextcloud.hahmann-trier.de
+  - name: Psono
+    url: https://psono.hahmann-trier.de
+  - name: Gitea
+    url: https://git.hahmann-trier.de
+  - name: Wordpress
+    url: https://www.hahmann-trier.de
+  - name: Athenia Wiki
+    url: https://athenia.wiki
+    
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  baseUrl: /uptime-hahmann-trier.-de
+  baseUrl: /uptime-hahmann-trier-de
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
