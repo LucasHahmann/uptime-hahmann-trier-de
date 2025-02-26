@@ -1,7 +1,7 @@
 url: https://athenia.wiki
-status: up
-code: 200
-responseTime: 2424
-lastUpdated: 2025-02-25T23:08:19.821Z
+status: down
+code: 500
+responseTime: 10485
+lastUpdated: 2025-02-26T05:29:54.502Z
 startTime: 2025-02-18T13:25:32.576Z
 generator: Upptime <https://github.com/upptime/upptime>
