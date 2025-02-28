@@ -4,28 +4,30 @@
     "url": "https://nextcloud.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.hahmann-trier.de.ico",
     "slug": "nextcloud",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
     "time": 958,
     "timeDay": 704,
     "timeWeek": 854,
     "timeMonth": 958,
     "timeYear": 958,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-28": 2
+    }
   },
   {
     "name": "Psono",
     "url": "https://psono.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/psono.hahmann-trier.de.ico",
     "slug": "psono",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 587,
@@ -33,16 +35,18 @@
     "timeWeek": 559,
     "timeMonth": 587,
     "timeYear": 587,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-28": 1
+    }
   },
   {
     "name": "Gitea",
     "url": "https://git.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/git.hahmann-trier.de.ico",
     "slug": "gitea",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +55,9 @@
     "timeWeek": 571,
     "timeMonth": 599,
     "timeYear": 599,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-28": 0
+    }
   },
   {
     "name": "Wordpress",
@@ -77,11 +83,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
     "status": "up",
-    "uptime": "99.56%",
+    "uptime": "99.57%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.56%",
-    "uptimeYear": "99.56%",
+    "uptimeMonth": "99.57%",
+    "uptimeYear": "99.57%",
     "time": 2998,
     "timeDay": 1604,
     "timeWeek": 3399,
