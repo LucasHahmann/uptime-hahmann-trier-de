@@ -58,18 +58,20 @@
     "url": "https://www.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/www.hahmann-trier.de.ico",
     "slug": "wordpress",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 767,
-    "timeDay": 871,
-    "timeWeek": 800,
-    "timeMonth": 768,
-    "timeYear": 767,
-    "dailyMinutesDown": {}
+    "time": 761,
+    "timeDay": 645,
+    "timeWeek": 752,
+    "timeMonth": 757,
+    "timeYear": 761,
+    "dailyMinutesDown": {
+      "2025-04-10": 0
+    }
   },
   {
     "name": "Athenia Wiki",
