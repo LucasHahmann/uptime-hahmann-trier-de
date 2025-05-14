@@ -22,19 +22,19 @@
     "url": "https://psono.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/psono.hahmann-trier.de.ico",
     "slug": "psono",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 603,
-    "timeDay": 548,
-    "timeWeek": 616,
-    "timeMonth": 601,
-    "timeYear": 603,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.49%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
+    "time": 605,
+    "timeDay": 611,
+    "timeWeek": 630,
+    "timeMonth": 606,
+    "timeYear": 605,
     "dailyMinutesDown": {
-      "2025-05-14": 0
+      "2025-05-14": 7
     }
   },
   {
