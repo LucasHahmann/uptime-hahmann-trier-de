@@ -22,18 +22,20 @@
     "url": "https://psono.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/psono.hahmann-trier.de.ico",
     "slug": "psono",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 603,
-    "timeDay": 474,
-    "timeWeek": 617,
-    "timeMonth": 599,
-    "timeYear": 603,
-    "dailyMinutesDown": {}
+    "time": 778,
+    "timeDay": 10128,
+    "timeWeek": 3013,
+    "timeMonth": 1180,
+    "timeYear": 778,
+    "dailyMinutesDown": {
+      "2025-05-27": 0
+    }
   },
   {
     "name": "Gitea",
