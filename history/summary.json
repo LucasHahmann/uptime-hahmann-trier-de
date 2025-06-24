@@ -42,18 +42,20 @@
     "url": "https://git.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/git.hahmann-trier.de.ico",
     "slug": "gitea",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 622,
-    "timeDay": 589,
-    "timeWeek": 604,
-    "timeMonth": 653,
-    "timeYear": 622,
-    "dailyMinutesDown": {}
+    "time": 725,
+    "timeDay": 7656,
+    "timeWeek": 2369,
+    "timeMonth": 1093,
+    "timeYear": 725,
+    "dailyMinutesDown": {
+      "2025-06-24": 0
+    }
   },
   {
     "name": "Wordpress",
