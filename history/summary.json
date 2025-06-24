@@ -4,10 +4,10 @@
     "url": "https://nextcloud.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/nextcloud.hahmann-trier.de.ico",
     "slug": "nextcloud",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 925,
@@ -15,25 +15,28 @@
     "timeWeek": 944,
     "timeMonth": 962,
     "timeYear": 925,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-24": 1
+    }
   },
   {
     "name": "Psono",
     "url": "https://psono.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/psono.hahmann-trier.de.ico",
     "slug": "psono",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.80%",
     "uptimeYear": "99.95%",
-    "time": 743,
-    "timeDay": 626,
-    "timeWeek": 576,
-    "timeMonth": 1190,
-    "timeYear": 743,
+    "time": 762,
+    "timeDay": 1993,
+    "timeWeek": 924,
+    "timeMonth": 1254,
+    "timeYear": 762,
     "dailyMinutesDown": {
+      "2025-06-24": 1,
       "2025-05-27": 87
     }
   },
@@ -43,18 +46,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/git.hahmann-trier.de.ico",
     "slug": "gitea",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "98.78%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
     "time": 725,
     "timeDay": 7656,
     "timeWeek": 2369,
     "timeMonth": 1093,
     "timeYear": 725,
     "dailyMinutesDown": {
-      "2025-06-24": 0
+      "2025-06-24": 18
     }
   },
   {
