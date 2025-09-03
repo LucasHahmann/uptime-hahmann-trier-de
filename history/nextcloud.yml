@@ -1,7 +1,7 @@
 url: https://nextcloud.hahmann-trier.de
-status: down
-code: 503
-responseTime: 1423
-lastUpdated: 2025-09-03T17:56:14.877Z
+status: up
+code: 200
+responseTime: 962
+lastUpdated: 2025-09-03T18:19:24.572Z
 startTime: 2025-02-18T13:25:28.721Z
 generator: Upptime <https://github.com/upptime/upptime>
