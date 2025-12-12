@@ -84,11 +84,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.hahmann-trier.de.ico",
     "slug": "wordpress",
     "status": "up",
-    "uptime": "95.61%",
+    "uptime": "95.62%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "57.17%",
-    "uptimeYear": "95.61%",
+    "uptimeYear": "95.62%",
     "time": 851,
     "timeDay": 362,
     "timeWeek": 504,
@@ -116,14 +116,14 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
-    "uptime": "99.35%",
-    "uptimeDay": "93.20%",
+    "status": "down",
+    "uptime": "99.36%",
+    "uptimeDay": "93.75%",
     "uptimeWeek": "96.74%",
     "uptimeMonth": "96.83%",
-    "uptimeYear": "99.35%",
+    "uptimeYear": "99.36%",
     "time": 2397,
-    "timeDay": 2635,
+    "timeDay": 2658,
     "timeWeek": 2471,
     "timeMonth": 2367,
     "timeYear": 2397,
@@ -194,7 +194,7 @@
       "2025-03-02": 74,
       "2025-02-28": 60,
       "2025-02-23": 18,
-      "2025-02-20": 42
+      "2025-02-20": 27
     }
   }
 ]
