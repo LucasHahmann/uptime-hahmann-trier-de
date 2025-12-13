@@ -87,7 +87,7 @@
     "uptime": "95.63%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "60.26%",
+    "uptimeMonth": "60.51%",
     "uptimeYear": "95.63%",
     "time": 850,
     "timeDay": 632,
@@ -116,15 +116,15 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
-    "uptime": "99.36%",
-    "uptimeDay": "95.69%",
-    "uptimeWeek": "96.55%",
+    "status": "down",
+    "uptime": "99.37%",
+    "uptimeDay": "97.23%",
+    "uptimeWeek": "96.73%",
     "uptimeMonth": "96.69%",
-    "uptimeYear": "99.36%",
+    "uptimeYear": "99.37%",
     "time": 2395,
-    "timeDay": 2130,
-    "timeWeek": 2488,
+    "timeDay": 2065,
+    "timeWeek": 2507,
     "timeMonth": 2329,
     "timeYear": 2395,
     "dailyMinutesDown": {
@@ -192,8 +192,7 @@
       "2025-06-28": 16,
       "2025-06-27": 17,
       "2025-03-03": 50,
-      "2025-03-02": 74,
-      "2025-02-28": 60
+      "2025-03-02": 74
     }
   }
 ]
