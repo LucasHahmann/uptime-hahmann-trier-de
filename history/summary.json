@@ -30,17 +30,17 @@
     "url": "https://psono.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/psono.hahmann-trier.de.ico",
     "slug": "psono",
-    "status": "up",
+    "status": "down",
     "uptime": "99.67%",
     "uptimeDay": "96.72%",
     "uptimeWeek": "99.53%",
     "uptimeMonth": "99.49%",
     "uptimeYear": "99.67%",
-    "time": 840,
-    "timeDay": 6868,
-    "timeWeek": 3978,
-    "timeMonth": 1866,
-    "timeYear": 840,
+    "time": 883,
+    "timeDay": 7986,
+    "timeWeek": 4823,
+    "timeMonth": 2190,
+    "timeYear": 883,
     "dailyMinutesDown": {
       "2025-12-17": 47,
       "2025-12-03": 28,
@@ -89,7 +89,7 @@
     "uptime": "95.68%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "72.33%",
+    "uptimeMonth": "72.38%",
     "uptimeYear": "95.68%",
     "time": 846,
     "timeDay": 581,
@@ -120,9 +120,9 @@
     "slug": "athenia-wiki",
     "status": "up",
     "uptime": "99.38%",
-    "uptimeDay": "97.38%",
-    "uptimeWeek": "96.44%",
-    "uptimeMonth": "97.02%",
+    "uptimeDay": "98.25%",
+    "uptimeWeek": "96.56%",
+    "uptimeMonth": "97.05%",
     "uptimeYear": "99.38%",
     "time": 2394,
     "timeDay": 2417,
@@ -130,7 +130,6 @@
     "timeMonth": 2380,
     "timeYear": 2394,
     "dailyMinutesDown": {
-      "2025-12-17": 13,
       "2025-12-16": 25,
       "2025-12-15": 31,
       "2025-12-14": 84,
@@ -194,7 +193,8 @@
       "2025-07-12": 28,
       "2025-07-04": 21,
       "2025-07-02": 18,
-      "2025-06-30": 33
+      "2025-06-30": 33,
+      "2025-06-28": 16
     }
   }
 ]
