@@ -1,7 +1,7 @@
 url: https://git.hahmann-trier.de
-status: up
-code: 200
-responseTime: 827
-lastUpdated: 2025-12-17T11:51:41.779Z
+status: down
+code: 502
+responseTime: 18530
+lastUpdated: 2025-12-17T11:59:56.392Z
 startTime: 2025-02-18T13:25:30.904Z
 generator: Upptime <https://github.com/upptime/upptime>
