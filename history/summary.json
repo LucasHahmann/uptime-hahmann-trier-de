@@ -122,16 +122,16 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
+    "status": "down",
     "uptime": "99.41%",
-    "uptimeDay": "98.57%",
+    "uptimeDay": "98.55%",
     "uptimeWeek": "96.89%",
     "uptimeMonth": "96.92%",
     "uptimeYear": "99.41%",
     "time": 2396,
-    "timeDay": 2106,
+    "timeDay": 2254,
     "timeWeek": 2363,
-    "timeMonth": 2405,
+    "timeMonth": 2409,
     "timeYear": 2396,
     "dailyMinutesDown": {
       "2026-01-02": 21,
@@ -187,8 +187,7 @@
       "2025-10-17": 41,
       "2025-10-14": 16,
       "2025-10-11": 21,
-      "2025-10-09": 38,
-      "2025-10-08": 21
+      "2025-10-09": 38
     }
   }
 ]
