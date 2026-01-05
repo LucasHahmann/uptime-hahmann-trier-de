@@ -11,7 +11,7 @@
     "uptimeMonth": "99.66%",
     "uptimeYear": "99.72%",
     "time": 952,
-    "timeDay": 920,
+    "timeDay": 733,
     "timeWeek": 955,
     "timeMonth": 945,
     "timeYear": 952,
@@ -38,7 +38,7 @@
     "uptimeMonth": "98.22%",
     "uptimeYear": "99.53%",
     "time": 1076,
-    "timeDay": 871,
+    "timeDay": 542,
     "timeWeek": 698,
     "timeMonth": 3284,
     "timeYear": 1076,
@@ -69,7 +69,7 @@
     "uptimeMonth": "98.23%",
     "uptimeYear": "99.58%",
     "time": 935,
-    "timeDay": 556,
+    "timeDay": 513,
     "timeWeek": 640,
     "timeMonth": 2681,
     "timeYear": 935,
@@ -122,9 +122,9 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
+    "status": "down",
     "uptime": "99.41%",
-    "uptimeDay": "96.28%",
+    "uptimeDay": "96.27%",
     "uptimeWeek": "97.98%",
     "uptimeMonth": "96.95%",
     "uptimeYear": "99.41%",
@@ -187,8 +187,7 @@
       "2025-10-21": 19,
       "2025-10-17": 41,
       "2025-10-14": 16,
-      "2025-10-11": 21,
-      "2025-10-09": 18
+      "2025-10-11": 21
     }
   }
 ]
