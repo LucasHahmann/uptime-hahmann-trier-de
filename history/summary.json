@@ -129,9 +129,9 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
+    "status": "down",
     "uptime": "99.40%",
-    "uptimeDay": "89.71%",
+    "uptimeDay": "89.69%",
     "uptimeWeek": "94.33%",
     "uptimeMonth": "97.12%",
     "uptimeYear": "99.40%",
@@ -191,7 +191,7 @@
       "2025-11-25": 24,
       "2025-11-23": 50,
       "2025-11-21": 113,
-      "2025-11-20": 41
+      "2025-11-20": 20
     }
   }
 ]
