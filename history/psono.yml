@@ -1,7 +1,7 @@
 url: https://psono.hahmann-trier.de
-status: up
-code: 200
-responseTime: 603
-lastUpdated: 2026-02-10T23:28:56.053Z
+status: down
+code: 502
+responseTime: 16166
+lastUpdated: 2026-02-11T11:08:08.032Z
 startTime: 2025-02-18T13:25:30.029Z
 generator: Upptime <https://github.com/upptime/upptime>
