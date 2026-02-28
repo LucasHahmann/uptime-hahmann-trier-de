@@ -46,7 +46,7 @@
     "timeDay": 578,
     "timeWeek": 656,
     "timeMonth": 1536,
-    "timeYear": 1238,
+    "timeYear": 1239,
     "dailyMinutesDown": {
       "2026-02-11": 174,
       "2026-02-08": 1249,
@@ -84,7 +84,7 @@
     "timeDay": 596,
     "timeWeek": 689,
     "timeMonth": 1213,
-    "timeYear": 1089,
+    "timeYear": 1090,
     "dailyMinutesDown": {
       "2026-02-11": 126,
       "2026-02-08": 1249,
@@ -141,18 +141,19 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
-    "uptime": "99.22%",
-    "uptimeDay": "97.43%",
-    "uptimeWeek": "96.10%",
+    "status": "down",
+    "uptime": "99.23%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "96.51%",
     "uptimeMonth": "94.08%",
     "uptimeYear": "99.20%",
     "time": 2372,
-    "timeDay": 1706,
-    "timeWeek": 1863,
+    "timeDay": 1496,
+    "timeWeek": 1843,
     "timeMonth": 2070,
     "timeYear": 2352,
     "dailyMinutesDown": {
+      "2026-02-28": 0,
       "2026-02-27": 37,
       "2026-02-26": 92,
       "2026-02-23": 122,
@@ -198,8 +199,7 @@
       "2025-12-27": 114,
       "2025-12-25": 93,
       "2025-12-24": 134,
-      "2025-12-23": 52,
-      "2025-12-21": 20
+      "2025-12-23": 52
     }
   }
 ]
