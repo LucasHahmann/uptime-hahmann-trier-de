@@ -116,7 +116,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.hahmann-trier.de.ico",
     "slug": "wordpress",
     "status": "up",
-    "uptime": "96.89%",
+    "uptime": "96.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -148,9 +148,9 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "up",
+    "status": "down",
     "uptime": "99.10%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "94.35%",
     "uptimeMonth": "96.89%",
     "uptimeYear": "98.97%",
@@ -160,6 +160,7 @@
     "timeMonth": 1967,
     "timeYear": 2261,
     "dailyMinutesDown": {
+      "2026-04-14": 0,
       "2026-04-12": 36,
       "2026-04-11": 108,
       "2026-04-09": 317,
@@ -212,8 +213,7 @@
       "2026-01-27": 360,
       "2026-01-26": 48,
       "2026-01-23": 15,
-      "2026-01-21": 28,
-      "2026-01-19": 24
+      "2026-01-21": 28
     }
   }
 ]
