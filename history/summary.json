@@ -45,11 +45,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/psono.hahmann-trier.de.ico",
     "slug": "psono",
     "status": "down",
-    "uptime": "84.16%",
+    "uptime": "84.15%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "78.65%",
+    "uptimeYear": "78.63%",
     "time": 1450,
     "timeDay": 3564,
     "timeWeek": 3481,
@@ -75,7 +75,7 @@
       "2026-03-22": 1126,
       "2026-03-21": 440,
       "2026-04-08": 60,
-      "2026-06-27": 94,
+      "2026-06-27": 178,
       "2026-06-26": 1440,
       "2026-06-25": 1440,
       "2026-06-24": 1440,
@@ -158,11 +158,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/git.hahmann-trier.de.ico",
     "slug": "gitea",
     "status": "down",
-    "uptime": "92.43%",
-    "uptimeDay": "91.60%",
-    "uptimeWeek": "90.77%",
-    "uptimeMonth": "95.95%",
-    "uptimeYear": "89.83%",
+    "uptime": "92.42%",
+    "uptimeDay": "85.78%",
+    "uptimeWeek": "90.54%",
+    "uptimeMonth": "95.75%",
+    "uptimeYear": "89.81%",
     "time": 1093,
     "timeDay": 604,
     "timeWeek": 569,
@@ -229,7 +229,7 @@
       "2026-06-21": 195,
       "2026-06-23": 273,
       "2026-06-26": 116,
-      "2026-06-27": 5
+      "2026-06-27": 89
     }
   },
   {
@@ -272,11 +272,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
     "status": "down",
-    "uptime": "92.54%",
-    "uptimeDay": "92.27%",
+    "uptime": "92.52%",
+    "uptimeDay": "86.45%",
     "uptimeWeek": "51.42%",
     "uptimeMonth": "9.93%",
-    "uptimeYear": "89.91%",
+    "uptimeYear": "89.89%",
     "time": 2333,
     "timeDay": 1326,
     "timeWeek": 1221,
@@ -377,7 +377,7 @@
       "2026-05-22": 1440,
       "2026-05-21": 689,
       "2026-06-26": 111,
-      "2026-06-27": 0
+      "2026-06-27": 84
     }
   }
 ]
