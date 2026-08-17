@@ -37,7 +37,7 @@
       "2026-05-31": 1440,
       "2026-05-30": 1440,
       "2026-05-29": 73,
-      "2026-08-17": 1270,
+      "2026-08-17": 1277,
       "2026-08-16": 1440,
       "2026-08-15": 1440,
       "2026-08-14": 1440,
@@ -117,7 +117,7 @@
       "2026-03-22": 1126,
       "2026-03-21": 440,
       "2026-04-08": 60,
-      "2026-08-17": 1270,
+      "2026-08-17": 1277,
       "2026-08-16": 1440,
       "2026-08-15": 1440,
       "2026-08-14": 1440,
@@ -250,16 +250,16 @@
     "url": "https://git.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/git.hahmann-trier.de.ico",
     "slug": "gitea",
-    "status": "down",
+    "status": "up",
     "uptime": "98.59%",
-    "uptimeDay": "87.82%",
-    "uptimeWeek": "91.77%",
+    "uptimeDay": "87.36%",
+    "uptimeWeek": "91.70%",
     "uptimeMonth": "92.26%",
     "uptimeYear": "97.89%",
-    "time": 1055,
-    "timeDay": 585,
-    "timeWeek": 593,
-    "timeMonth": 615,
+    "time": 1056,
+    "timeDay": 618,
+    "timeWeek": 600,
+    "timeMonth": 617,
     "timeYear": 1166,
     "dailyMinutesDown": {
       "2026-06-17": 106,
@@ -310,7 +310,7 @@
       "2026-08-14": 17,
       "2026-08-15": 21,
       "2026-08-16": 113,
-      "2026-08-17": 176
+      "2026-08-17": 183
     }
   },
   {
@@ -318,16 +318,16 @@
     "url": "https://www.hahmann-trier.de",
     "icon": "https://icons.duckduckgo.com/ip3/www.hahmann-trier.de.ico",
     "slug": "wordpress",
-    "status": "down",
+    "status": "up",
     "uptime": "97.32%",
-    "uptimeDay": "89.50%",
-    "uptimeWeek": "92.71%",
-    "uptimeMonth": "94.95%",
+    "uptimeDay": "89.04%",
+    "uptimeWeek": "92.64%",
+    "uptimeMonth": "94.93%",
     "uptimeYear": "96.00%",
     "time": 723,
-    "timeDay": 562,
-    "timeWeek": 583,
-    "timeMonth": 592,
+    "timeDay": 600,
+    "timeWeek": 590,
+    "timeMonth": 595,
     "timeYear": 664,
     "dailyMinutesDown": {
       "2025-11-25": 1254,
@@ -359,7 +359,7 @@
       "2026-08-13": 137,
       "2026-08-15": 16,
       "2026-08-16": 94,
-      "2026-08-17": 151
+      "2026-08-17": 158
     }
   },
   {
@@ -367,17 +367,17 @@
     "url": "https://athenia.wiki",
     "icon": "https://icons.duckduckgo.com/ip3/athenia.wiki.ico",
     "slug": "athenia-wiki",
-    "status": "down",
+    "status": "up",
     "uptime": "92.82%",
-    "uptimeDay": "91.17%",
-    "uptimeWeek": "93.71%",
+    "uptimeDay": "90.71%",
+    "uptimeWeek": "93.64%",
     "uptimeMonth": "93.43%",
     "uptimeYear": "89.27%",
     "time": 2166,
-    "timeDay": 1356,
-    "timeWeek": 1400,
+    "timeDay": 1383,
+    "timeWeek": 1404,
     "timeMonth": 1504,
-    "timeYear": 2143,
+    "timeYear": 2142,
     "dailyMinutesDown": {
       "2026-04-21": 80,
       "2026-04-26": 57,
@@ -465,7 +465,7 @@
       "2026-08-12": 192,
       "2026-08-13": 127,
       "2026-08-16": 61,
-      "2026-08-17": 127
+      "2026-08-17": 134
     }
   }
 ]
