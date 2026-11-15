@@ -2,18 +2,63 @@
 owner: lucashahmann # Your GitHub organization or username, where this repository lives
 repo: uptime-hahmann-trier-de # The name of this repository
 
+# Abgeleitet aus der Traefik-Config (traefik/config/dynamic/*.yaml).
+# Bestehende Namen nicht umbenennen – der Name bestimmt den Slug und damit die History.
 sites:
-  - name: Nextcloud
-    url: https://nextcloud.hahmann-trier.de
-  - name: Psono
-    url: https://psono.hahmann-trier.de
-  - name: Gitea
-    url: https://git.hahmann-trier.de
+  # hahmann-trier.de
   - name: Wordpress
     url: https://www.hahmann-trier.de
+  - name: Nextcloud
+    url: https://cloud.hahmann-trier.de
+  - name: Gitea
+    url: https://git.hahmann-trier.de
+  - name: BookStack Wiki
+    url: https://wiki.hahmann-trier.de
+  - name: Docmost
+    url: https://docmost.hahmann-trier.de
+  - name: HedgeDoc
+    url: https://hedgedoc.hahmann-trier.de
+  - name: Linkwarden
+    url: https://bookmarks.hahmann-trier.de
+  - name: Stirling PDF
+    url: https://pdf.hahmann-trier.de
+  - name: Mailcow
+    url: https://pmg.hahmann-trier.de
+  - name: Dashboard
+    url: https://dashboard.hahmann-trier.de
+  - name: Monitoring
+    url: https://monitoring.hahmann-trier.de
+  - name: Grafana
+    url: https://grafana.hahmann-trier.de
+  - name: PatchMon
+    url: https://patch.hahmann-trier.de
+  - name: What's up Docker
+    url: https://wud.hahmann-trier.de
+  - name: Game Panel
+    url: https://game-panel.hahmann-trier.de
+  - name: Wings
+    url: https://wings.hahmann-trier.de
+    expectedStatusCodes:
+      - 401 # Wings-API antwortet ohne Token mit 401
+  - name: Foundry VTT
+    url: https://foundry.hahmann-trier.de
+  - name: ATM10 Stats
+    url: https://stats.hahmann-trier.de
+
+  # deepwatersurvival.de
+  - name: Deepwater Survival
+    url: https://www.deepwatersurvival.de
+  - name: Deepwater Cloud
+    url: https://cloud.deepwatersurvival.de
+  - name: Deepwater Cash
+    url: https://cash.deepwatersurvival.de
+
+  # Weitere Domains
   - name: Athenia Wiki
     url: https://athenia.wiki
-    
+  - name: Rackaris
+    url: https://www.rackaris.de
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -22,7 +67,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** instance of the applications for **hahmann-trier.de**"
-  introMessage: This is the status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime).
+  introMessage: This is the status page which uses **real-time** data from our [GitHub repository](https://github.com/$OWNER/$REPO).
   navbar:
     - title: Status
       href: /
