@@ -1,63 +1,100 @@
 # Change these first
 owner: lucashahmann # Your GitHub organization or username, where this repository lives
 repo: uptime-hahmann-trier-de # The name of this repository
+user-agent: lucashahmann
+
+# Keine Secrets an die Checks durchreichen (GH_PAT wird separat übergeben).
+# Werden später Benachrichtigungs-Secrets angelegt, müssen sie hier eingetragen werden.
+secrets: []
+
+# Bei jedem Ausfall-Issue zugewiesen werden -> GitHub-Benachrichtigung per Mail
+assignees:
+  - LucasHahmann
+
+# Kurze Ausfälle (< 15 min) nicht löschen, sondern in der Incident-History behalten
+skipDeleteIssues: true
 
 # Abgeleitet aus der Traefik-Config (traefik/config/dynamic/*.yaml).
 # Bestehende Namen nicht umbenennen – der Name bestimmt den Slug und damit die History.
+# Wo vorhanden, wird ein Health-Endpoint geprüft (inkl. Body-Check), nicht nur die Startseite.
+# maxResponseTime: ab 3 s gilt eine Site als "degraded" (Standard wären 30 s).
 sites:
   # hahmann-trier.de
   - name: Wordpress
     url: https://www.hahmann-trier.de
+    maxResponseTime: 3000
   - name: Nextcloud
-    url: https://cloud.hahmann-trier.de
+    url: https://cloud.hahmann-trier.de/status.php
+    __dangerous__body_down_if_text_missing: '"maintenance":false'
+    maxResponseTime: 3000
   - name: Gitea
-    url: https://git.hahmann-trier.de
+    url: https://git.hahmann-trier.de/api/healthz
+    __dangerous__body_down_if_text_missing: '"status": "pass"'
+    maxResponseTime: 3000
   - name: BookStack Wiki
-    url: https://wiki.hahmann-trier.de
-  - name: Docmost
-    url: https://docmost.hahmann-trier.de
+    url: https://wiki.hahmann-trier.de/status
+    __dangerous__body_down_if_text_missing: '"database":true'
+    maxResponseTime: 3000
   - name: HedgeDoc
     url: https://hedgedoc.hahmann-trier.de
-  - name: Linkwarden
-    url: https://bookmarks.hahmann-trier.de
+    maxResponseTime: 3000
   - name: Stirling PDF
-    url: https://pdf.hahmann-trier.de
+    url: https://pdf.hahmann-trier.de/api/v1/info/status
+    __dangerous__body_down_if_text_missing: '"status":"UP"'
+    maxResponseTime: 3000
   - name: Mailcow
     url: https://pmg.hahmann-trier.de
-  - name: Dashboard
-    url: https://dashboard.hahmann-trier.de
+    maxResponseTime: 3000
   - name: Monitoring
     url: https://monitoring.hahmann-trier.de
+    maxResponseTime: 3000
   - name: Grafana
-    url: https://grafana.hahmann-trier.de
+    url: https://grafana.hahmann-trier.de/api/health
+    __dangerous__body_down_if_text_missing: '"database": "ok"'
+    maxResponseTime: 3000
   - name: PatchMon
-    url: https://patch.hahmann-trier.de
+    url: https://patch.hahmann-trier.de/health
+    __dangerous__body_down_if_text_missing: "healthy"
+    maxResponseTime: 3000
   - name: What's up Docker
     url: https://wud.hahmann-trier.de
+    maxResponseTime: 3000
   - name: Game Panel
     url: https://game-panel.hahmann-trier.de
+    maxResponseTime: 3000
   - name: Wings
     url: https://wings.hahmann-trier.de
     expectedStatusCodes:
       - 401 # Wings-API antwortet ohne Token mit 401
+    # Sicherstellen, dass die 401 wirklich von Wings kommt
+    __dangerous__body_down_if_text_missing: "authorization heads"
+    maxResponseTime: 3000
   - name: Foundry VTT
     url: https://foundry.hahmann-trier.de
+    maxResponseTime: 3000
   - name: ATM10 Stats
-    url: https://stats.hahmann-trier.de
+    url: https://stats.hahmann-trier.de/api/health
+    __dangerous__body_down_if_text_missing: '"ok":true'
+    maxResponseTime: 3000
 
   # deepwatersurvival.de
   - name: Deepwater Survival
     url: https://www.deepwatersurvival.de
+    maxResponseTime: 3000
   - name: Deepwater Cloud
     url: https://cloud.deepwatersurvival.de
+    maxResponseTime: 3000
   - name: Deepwater Cash
     url: https://cash.deepwatersurvival.de
+    maxResponseTime: 3000
 
   # Weitere Domains
   - name: Athenia Wiki
     url: https://athenia.wiki
+    maxResponseTime: 3000
   - name: Rackaris
     url: https://www.rackaris.de
+    maxResponseTime: 3000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -74,13 +111,5 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
