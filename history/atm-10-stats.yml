@@ -1,7 +1,7 @@
-url: https://stats.hahmann-trier.de
+url: https://stats.hahmann-trier.de/api/health
 status: up
 code: 200
-responseTime: 818
-lastUpdated: 2026-11-15T09:28:02.188Z
+responseTime: 380
+lastUpdated: 2026-11-15T09:42:22.732Z
 startTime: 2026-11-15T09:28:01.370Z
 generator: Upptime <https://github.com/upptime/upptime>
