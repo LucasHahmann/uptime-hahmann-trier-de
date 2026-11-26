@@ -1,7 +1,7 @@
 url: https://grafana.hahmann-trier.de/api/health
 status: up
 code: 200
-responseTime: 393
-lastUpdated: 2026-11-25T05:07:05.486Z
+responseTime: 560
+lastUpdated: 2026-11-26T04:33:54.878Z
 startTime: 2026-11-15T09:27:56.044Z
 generator: Upptime <https://github.com/upptime/upptime>
