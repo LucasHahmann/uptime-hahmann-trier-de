@@ -1,7 +1,7 @@
 url: https://git.hahmann-trier.de/api/healthz
 status: up
 code: 200
-responseTime: 404
-lastUpdated: 2026-11-27T04:37:56.693Z
+responseTime: 400
+lastUpdated: 2026-11-28T04:22:26.478Z
 startTime: 2025-02-18T13:25:30.904Z
 generator: Upptime <https://github.com/upptime/upptime>
